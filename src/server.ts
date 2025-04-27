@@ -289,7 +289,7 @@ const messageHandler = async (req: express.Request, res: express.Response) => {
 app.post("/messages", messageHandler as any);
 
 // 启动服务器
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 8082;
 app.listen(PORT, () => {
   console.log(`MCP Quip SSE 服务器在端口 ${PORT} 上运行`);
 

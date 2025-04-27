@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "3001:3001"
+      - "8082:8082"
     environment:
       - NODE_ENV=production
       - QUIP_TOKEN=${QUIP_TOKEN}

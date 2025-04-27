@@ -42,7 +42,7 @@ QUIP_TOKEN=your_quip_api_token_here
 docker-compose up -d
 ```
 
-服务器将在 `http://localhost:3001` 上运行。
+服务器将在 `http://localhost:8082` 上运行。
 
 ### 手动安装
 
@@ -77,7 +77,7 @@ npm run build
 npm start
 ```
 
-服务器将在 `http://localhost:3001` 上运行。
+服务器将在 `http://localhost:8082` 上运行。
 
 ## 配置
 
@@ -87,7 +87,7 @@ npm start
 | ------------------- | --------------------- | --------------------------- |
 | `QUIP_TOKEN`        | Quip API 令牌（必需） | -                           |
 | `QUIP_BASE_URL`     | Quip API 基础 URL     | `https://platform.quip.com` |
-| `PORT`              | 服务器端口            | `3001`                      |
+| `PORT`              | 服务器端口            | `8082`                      |
 | `QUIP_STORAGE_PATH` | CSV 文件的存储路径    | `./storage`                 |
 
 ## 使用方法
