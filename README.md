@@ -26,7 +26,7 @@
 1. 克隆仓库并进入项目目录：
 
 ```bash
-git clone https://github.com/yourusername/mcp-quip-sse.git
+git clone https://github.com/chenhaiyun/mcp-quip-sse.git
 cd mcp-quip-sse
 ```
 
@@ -49,7 +49,7 @@ docker-compose up -d
 1. 克隆仓库并进入项目目录：
 
 ```bash
-git clone https://github.com/yourusername/mcp-quip-sse.git
+git clone https://github.com/chenhaiyun/mcp-quip-sse.git
 cd mcp-quip-sse
 ```
 
