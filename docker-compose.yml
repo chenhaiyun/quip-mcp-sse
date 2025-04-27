@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+      - QUIP_TOKEN=${QUIP_TOKEN}
+      - QUIP_BASE_URL=${QUIP_BASE_URL:-https://platform.quip.com}
+      - QUIP_STORAGE_PATH=/app/storage
+    volumes:
+      - ./storage:/app/storage
+    restart: unless-stopped

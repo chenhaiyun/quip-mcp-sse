@@ -1,0 +1,37 @@
+{
+  "name": "mcp-quip-sse",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP Quip Server with SSE transport",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "NODE_OPTIONS=\"--loader ts-node/esm\" nodemon src/server.ts",
+    "test": "NODE_OPTIONS=\"--loader ts-node/esm\" nodemon src/test.ts"
+  },
+  "keywords": [
+    "mcp",
+    "quip",
+    "sse"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.5.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "xlsx": "^0.18.5",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.2.2"
+  }
+}
